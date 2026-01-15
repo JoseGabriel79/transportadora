@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    padding: 2rem;
+
 `;
 
 export const Header = styled.header`
-text-align: center; 
-margin-bottom: 2rem;
+    text-align: center; 
+    margin-bottom: 2rem;
 `;
 
 export const Title = styled.h1`
-    font-size: 2rem;    
+    font-size: 4rem;    
     color: black;
     margin-bottom: 0.5rem;
 `;
